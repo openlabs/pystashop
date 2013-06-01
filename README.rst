@@ -23,11 +23,11 @@ Connecting to your store::
     >>> from pystashop import PrestaShopWebservice
     >>> client = PrestaShopWebservice(
     ...     'http://prestashop.openlabs.co.in', 
-    ...     'XWY5KZF52E3W75O0CRCAU5W2RS76L3QZ')
+    ...     'X76XVCPE71843TIY5CPJVV3NX56Z4MVD')
 
 Getting a list of customers::
 
-    >>> customers = client.customers.get_list()
+    >>> customers = client.customers.get_list(as_ids=True)
     >>> type(customers)
     <type 'list'>
     >>> customers_count = len(customers)
@@ -65,6 +65,23 @@ Editing the customer details::
     >>> updated_data.email
     'info@openlabs.co.in'
 
+
+Choosing fields to display::
+
+    >>> customers = client.customers.get_list(display=['firstname', 'lastname'])
+    >>> isinstance(customers[0].firstname.pyval, basestring)
+    True
+    >>> isinstance(customers[0].lastname.pyval, basestring)
+    True
+    >>> isinstance(customers[0].id.pyval, int)
+    True
+
+Filtering Records to Display::
+
+    >>> customers = client.customers.get_list(filters={'firstname': 'Sharoon'})
+    >>> customers[0].firstname
+    Sharoon
+
 Deleting a customer::
 
     >>> client.customers.delete(customer.id)
@@ -74,3 +91,4 @@ Deleting a customer::
     True
     >>> customer.id in customers_list
     False
+

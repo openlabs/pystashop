@@ -127,25 +127,73 @@ class ResourceProxy(object):
 
         return objectify.fromstring(response.content)
 
+    @staticmethod
+    def make_params(display=None, filters=None, sort=None, limit=None, offset=None):
+        """
+        Builds the URL paramters as a dictionary
+
+        :param display: A list of field names
+                        eg: ['firstname', 'lastname']
+        :param filters: A dictionary of field name and values
+                        eg: {'firstname': 'sharoon'}
+        :param sort: a list of tuple of field and value
+                     eg: [('firstname', 'ASC'), ('lastname', 'DESC')]
+        :param limit: The number of records to be returned
+        :param offset: The number of records to skip
+        """
+        params = {}
+
+        if display:
+            params['display'] = '[' + ','.join(display) + ']'
+
+        if filters:
+            for key, value in filters.iteritems():
+                params['filter[%s]' % key] = '[%s]' % value
+
+        if sort:
+            params['sort'] = '[' + ','.join([
+                '{0}_{1}'.format(field, order) for field, order in sort
+            ]) + ']'
+
+        if limit and not offset:
+            params['limit'] = limit
+        elif limit and offset:
+            params['limit'] = '%d,%d' % (offset - 1, limit)
+
+        return params
+
     @classmethod
-    def get_list(cls, as_ids=True):
+    def get_list(cls, as_ids=False, display=None,
+                 filters=None, sort=None, limit=None, offset=None):
         """
         Gets a list of records by sending GET on the Collection
         URI of the resource.
 
         :param as_ids: If True a list of ids are returned, or the
                        XML object is returned
+        :param display: A list of fields that needs to be returned.
+                        By default only the ID is fetched
         """
-        response = cls.session.get(cls.url)
+        if display is None:
+            display = []
+
+        if as_ids and 'id' not in display:
+            display.append('id')
+
+        params = cls.make_params(display, filters, sort, limit, offset)
+
+        response = cls.session.get(cls.url, params=params)
         cls.check_status(response)
         rv = objectify.fromstring(response.content)
 
+
         if as_ids:
-            rv = map(
-                lambda r: int(r.get('id')),
+            return map(
+                lambda r: int(r.id),
                 getattr(rv, cls.__resource__).iterchildren()
             )
-        return rv
+
+        return getattr(rv, cls.__resource__).getchildren()
 
     @classmethod
     @singular
