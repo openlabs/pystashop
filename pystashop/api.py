@@ -128,7 +128,8 @@ class ResourceProxy(object):
         return objectify.fromstring(response.content)
 
     @staticmethod
-    def make_params(display=None, filters=None, sort=None, limit=None, offset=None):
+    def make_params(display=None, filters=None,
+                    sort=None, limit=None, offset=None, date=None):
         """
         Builds the URL paramters as a dictionary
 
@@ -140,11 +141,18 @@ class ResourceProxy(object):
                      eg: [('firstname', 'ASC'), ('lastname', 'DESC')]
         :param limit: The number of records to be returned
         :param offset: The number of records to skip
+        :param date: This should be a logically True value to have a date based
+                     filter. For details,
+                     `refer <http://www.prestashop.com/forums/topic/\
+                             101502-webservice-api-filter-for-date-ranges/>`_
         """
         params = {}
 
         if display:
-            params['display'] = '[' + ','.join(display) + ']'
+            if display == 'full':
+                params['display'] = display
+            else:
+                params['display'] = '[' + ','.join(display) + ']'
 
         if filters:
             for key, value in filters.iteritems():
@@ -160,11 +168,14 @@ class ResourceProxy(object):
         elif limit and offset:
             params['limit'] = '%d,%d' % (offset - 1, limit)
 
+        if date:
+            params['date'] = 1
+
         return params
 
     @classmethod
     def get_list(cls, as_ids=False, display=None,
-                 filters=None, sort=None, limit=None, offset=None):
+                 filters=None, sort=None, limit=None, offset=None, date=None):
         """
         Gets a list of records by sending GET on the Collection
         URI of the resource.
@@ -173,6 +184,14 @@ class ResourceProxy(object):
                        XML object is returned
         :param display: A list of fields that needs to be returned.
                         By default only the ID is fetched
+        :param filters: A dictionary of field name and values
+                        eg: {'firstname': 'sharoon'}
+        :param sort: a list of tuple of field and value
+                     eg: [('firstname', 'ASC'), ('lastname', 'DESC')]
+        :param limit: The number of records to be returned
+        :param offset: The number of records to skip
+        :param date: This should be a logically True value to have a date based
+                     filter.
         """
         if display is None:
             display = []
@@ -180,7 +199,7 @@ class ResourceProxy(object):
         if as_ids and 'id' not in display:
             display.append('id')
 
-        params = cls.make_params(display, filters, sort, limit, offset)
+        params = cls.make_params(display, filters, sort, limit, offset, date)
 
         response = cls.session.get(cls.url, params=params)
         cls.check_status(response)

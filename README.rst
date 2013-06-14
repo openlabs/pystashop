@@ -21,6 +21,7 @@ Example Usage:
 Connecting to your store::
 
     >>> from pystashop import PrestaShopWebservice
+    >>> from datetime import datetime, timedelta
     >>> client = PrestaShopWebservice(
     ...     'http://prestashop.openlabs.co.in', 
     ...     'X76XVCPE71843TIY5CPJVV3NX56Z4MVD')
@@ -91,6 +92,36 @@ Filtering Records to Display::
     ... )
     >>> customers[0].firstname.pyval
     'Sharoon'
+
+Filtering Records on basis of date::
+
+    >>> customers = client.customers.get_list(
+    ...     filters={
+    ...         'date_add': '{0},{1}'.format(
+    ...             '2012-01-01 00:00:00',
+    ...             datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+    ...         ),
+    ...         'firstname': 'Sharoon',
+    ...     },
+    ...     display=['firstname'], date=True,
+    ... )
+    >>> customers[0].firstname.pyval
+    'Sharoon'
+    >>> time_diff = timedelta(hours=5)
+    >>> time_now = datetime.utcnow()
+    >>> customers = client.customers.get_list(
+    ...     filters={
+    ...         'date_add': '{0},{1}'.format(
+    ...             time_now.strftime('%Y-%m-%d %H:%M:%S'),
+    ...             (time_now + time_diff).strftime(
+    ...                 '%Y-%m-%d %H:%M:%S')
+    ...         ),
+    ...         'firstname': 'Sharoon',
+    ...     },
+    ...     display=['firstname'], date=True,
+    ... )
+    >>> len(customers)
+    0
 
 Sorting Records to be displayed::
 
