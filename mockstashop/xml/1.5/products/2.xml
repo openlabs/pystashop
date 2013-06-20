@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<product>
+	<id><![CDATA[2]]></id>
+	<id_manufacturer xlink:href="http://127.0.0.1:8888/prestashop/api/manufacturers/1"><![CDATA[1]]></id_manufacturer>
+	<id_supplier xlink:href="http://127.0.0.1:8888/prestashop/api/suppliers/1"><![CDATA[1]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/3"><![CDATA[3]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/23" not_filterable="true"><![CDATA[23]]></id_default_image>
+	<id_default_combination xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/2" not_filterable="true"><![CDATA[2]]></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[1]]></position_in_category>
+	<manufacturer_name not_filterable="true"><![CDATA[Apple Computer, Inc]]></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_2]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[0.000000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[0]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[66.05]]></price>
+	<wholesale_price><![CDATA[33.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:43]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:43]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[ipod-shuffle]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[iPod shuffle]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p><span style="font-size: small;"><strong>Instant attachment.</strong></span></p>
+<p>Wear up to 500 songs on your sleeve. Or your belt. Or your gym shorts. iPod shuffle is a badge of musical devotion. Now in new, more brilliant colors.</p>
+<p><span style="font-size: small;"><strong>Feed your iPod shuffle.</strong></span></p>
+<p>iTunes is your entertainment superstore. It’s your ultra-organized music collection and jukebox. And it’s how you load up your iPod shuffle in one click.</p>
+<p><span style="font-size: small;"><strong>Beauty and the beat.</strong></span></p>
+<p>Intensely colorful anodized aluminum complements the simple design of iPod shuffle. Now in blue, green, pink, red, and original silver.</p>]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p>iPod shuffle, the world’s most wearable music player, now clips on in more vibrant blue, green, pink, and red.</p>]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[In stock]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/2">
+	<id><![CDATA[2]]></id>
+	</category>
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/3">
+	<id><![CDATA[3]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/23">
+	<id><![CDATA[23]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/24">
+	<id><![CDATA[24]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/25">
+	<id><![CDATA[25]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/26">
+	<id><![CDATA[26]]></id>
+	</image>
+</images>
+<combinations node_type="combinations">
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/1">
+	<id><![CDATA[1]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/2">
+	<id><![CDATA[2]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/3">
+	<id><![CDATA[3]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/4">
+	<id><![CDATA[4]]></id>
+	</combinations>
+</combinations>
+<product_option_values node_type="product_options_values">
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/4">
+	<id><![CDATA[4]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/6">
+	<id><![CDATA[6]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/3">
+	<id><![CDATA[3]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/5">
+	<id><![CDATA[5]]></id>
+	</product_options_values>
+</product_option_values>
+<product_features node_type="product_feature"/>
+<tags node_type="tag">
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/2">
+	<id><![CDATA[2]]></id>
+	</tag>
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/6">
+	<id><![CDATA[6]]></id>
+	</tag>
+</tags>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/2">
+	<id><![CDATA[2]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/8">
+	<id><![CDATA[8]]></id>
+	<id_product_attribute><![CDATA[1]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/9">
+	<id><![CDATA[9]]></id>
+	<id_product_attribute><![CDATA[2]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/10">
+	<id><![CDATA[10]]></id>
+	<id_product_attribute><![CDATA[3]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/11">
+	<id><![CDATA[11]]></id>
+	<id_product_attribute><![CDATA[4]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+</prestashop>

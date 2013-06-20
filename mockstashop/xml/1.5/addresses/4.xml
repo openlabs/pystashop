@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<address>
+	<id><![CDATA[4]]></id>
+	<id_customer><![CDATA[0]]></id_customer>
+	<id_manufacturer><![CDATA[0]]></id_manufacturer>
+	<id_supplier xlink:href="http://127.0.0.1:8888/prestashop/api/suppliers/2"><![CDATA[2]]></id_supplier>
+	<id_warehouse><![CDATA[0]]></id_warehouse>
+	<id_country xlink:href="http://127.0.0.1:8888/prestashop/api/countries/21"><![CDATA[21]]></id_country>
+	<id_state xlink:href="http://127.0.0.1:8888/prestashop/api/states/13"><![CDATA[13]]></id_state>
+	<alias><![CDATA[supplier]]></alias>
+	<company><![CDATA[Shure]]></company>
+	<lastname><![CDATA[supplier]]></lastname>
+	<firstname><![CDATA[supplier]]></firstname>
+	<vat_number></vat_number>
+	<address1><![CDATA[5800 W. Touhy Ave]]></address1>
+	<address2></address2>
+	<postcode><![CDATA[60714]]></postcode>
+	<city><![CDATA[Niles]]></city>
+	<other></other>
+	<phone><![CDATA[800-434-3350]]></phone>
+	<phone_mobile></phone_mobile>
+	<dni></dni>
+	<deleted><![CDATA[0]]></deleted>
+	<date_add><![CDATA[2013-06-04 06:36:42]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:42]]></date_upd>
+</address>
+</prestashop>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<shop>
+	<id><![CDATA[1]]></id>
+	<id_shop_group xlink:href="http://127.0.0.1:8888/prestashop/api/shop_groups/1"><![CDATA[1]]></id_shop_group>
+	<id_category><![CDATA[2]]></id_category>
+	<id_theme><![CDATA[1]]></id_theme>
+	<active><![CDATA[1]]></active>
+	<deleted><![CDATA[0]]></deleted>
+	<name><![CDATA[Demo]]></name>
+</shop>
+</prestashop>

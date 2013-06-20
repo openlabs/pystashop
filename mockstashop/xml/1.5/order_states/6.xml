@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<order_state>
+	<id><![CDATA[6]]></id>
+	<unremovable><![CDATA[1]]></unremovable>
+	<delivery><![CDATA[0]]></delivery>
+	<hidden><![CDATA[0]]></hidden>
+	<send_email><![CDATA[1]]></send_email>
+	<module_name></module_name>
+	<invoice><![CDATA[0]]></invoice>
+	<color><![CDATA[Crimson]]></color>
+	<logable><![CDATA[0]]></logable>
+	<shipped><![CDATA[0]]></shipped>
+	<paid><![CDATA[0]]></paid>
+	<deleted><![CDATA[0]]></deleted>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[Canceled]]></language></name>
+	<template><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[order_canceled]]></language></template>
+</order_state>
+</prestashop>
