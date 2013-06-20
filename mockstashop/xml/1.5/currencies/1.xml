@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<currency>
+	<id><![CDATA[1]]></id>
+	<name><![CDATA[Dollar]]></name>
+	<iso_code><![CDATA[USD]]></iso_code>
+	<iso_code_num><![CDATA[840]]></iso_code_num>
+	<blank><![CDATA[0]]></blank>
+	<sign><![CDATA[$]]></sign>
+	<format><![CDATA[1]]></format>
+	<decimals><![CDATA[1]]></decimals>
+	<conversion_rate><![CDATA[1.000000]]></conversion_rate>
+	<deleted><![CDATA[0]]></deleted>
+	<active><![CDATA[1]]></active>
+</currency>
+</prestashop>

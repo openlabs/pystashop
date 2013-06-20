@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<country>
+	<id><![CDATA[110]]></id>
+	<id_zone xlink:href="http://127.0.0.1:8888/prestashop/api/zones/3"><![CDATA[3]]></id_zone>
+	<id_currency><![CDATA[0]]></id_currency>
+	<call_prefix><![CDATA[91]]></call_prefix>
+	<iso_code><![CDATA[IN]]></iso_code>
+	<active><![CDATA[0]]></active>
+	<contains_states><![CDATA[0]]></contains_states>
+	<need_identification_number><![CDATA[0]]></need_identification_number>
+	<need_zip_code><![CDATA[1]]></need_zip_code>
+	<zip_code_format><![CDATA[NNN NNN]]></zip_code_format>
+	<display_tax_label><![CDATA[1]]></display_tax_label>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[India]]></language></name>
+</country>
+</prestashop>

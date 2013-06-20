@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<address>
+	<id><![CDATA[5]]></id>
+	<id_customer xlink:href="http://127.0.0.1:8888/prestashop/api/customers/2"><![CDATA[2]]></id_customer>
+	<id_manufacturer><![CDATA[0]]></id_manufacturer>
+	<id_supplier><![CDATA[0]]></id_supplier>
+	<id_warehouse><![CDATA[0]]></id_warehouse>
+	<id_country xlink:href="http://127.0.0.1:8888/prestashop/api/countries/110"><![CDATA[110]]></id_country>
+	<id_state><![CDATA[0]]></id_state>
+	<alias><![CDATA[Home]]></alias>
+	<company><![CDATA[Openlabs]]></company>
+	<lastname><![CDATA[Aggarwal]]></lastname>
+	<firstname><![CDATA[Shalabh]]></firstname>
+	<vat_number></vat_number>
+	<address1><![CDATA[Street 1]]></address1>
+	<address2><![CDATA[Street 2]]></address2>
+	<postcode><![CDATA[201306]]></postcode>
+	<city><![CDATA[Noida]]></city>
+	<other></other>
+	<phone><![CDATA[234567845]]></phone>
+	<phone_mobile></phone_mobile>
+	<dni></dni>
+	<deleted><![CDATA[0]]></deleted>
+	<date_add><![CDATA[2013-06-05 02:59:11]]></date_add>
+	<date_upd><![CDATA[2013-06-05 02:59:11]]></date_upd>
+</address>
+</prestashop>
