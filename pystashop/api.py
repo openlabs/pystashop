@@ -27,7 +27,8 @@ class PrestaShopWebservice(object):
     you can generate one from your Back Office and click on the
     "Tools / Web Service" tab.
 
-    `Read More <http://doc.prestashop.com/display/PS14/Chapter+1+-+Creating+Access+to+Back+Office>`_
+    `Read More <http://doc.prestashop.com/display/PS14/\
+            Chapter+1+-+Creating+Access+to+Back+Office>`_
     """
 
     def __init__(self, url, key, debug=False):
@@ -149,10 +150,8 @@ class ResourceProxy(object):
         params = {}
 
         if display:
-            if display == 'full':
-                params['display'] = display
-            else:
-                params['display'] = '[' + ','.join(display) + ']'
+            params['display'] = display if display == 'full' \
+                else '[' + ','.join(display) + ']'
 
         if filters:
             for key, value in filters.iteritems():
@@ -196,15 +195,13 @@ class ResourceProxy(object):
         if display is None:
             display = []
 
-        if as_ids and 'id' not in display:
+        if as_ids and 'id' not in display and display != 'full':
             display.append('id')
 
         params = cls.make_params(display, filters, sort, limit, offset, date)
-
         response = cls.session.get(cls.url, params=params)
         cls.check_status(response)
         rv = objectify.fromstring(response.content)
-
 
         if as_ids:
             return map(
