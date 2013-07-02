@@ -13,7 +13,7 @@ execfile(os.path.join('pystashop', 'version.py'))
 
 setup(
     name='pystashop',
-    version='0.1',
+    version=VERSION,
     url='https://github.com/openlabs/pystashop/',
     author='Sharoon Thomas, Openlabs Technologies',
     author_email='info@openlabs.co.in',
