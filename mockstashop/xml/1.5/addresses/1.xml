@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<address>
+	<id><![CDATA[1]]></id>
+	<id_customer><![CDATA[0]]></id_customer>
+	<id_manufacturer xlink:href="http://127.0.0.1:8888/prestashop/api/manufacturers/1"><![CDATA[1]]></id_manufacturer>
+	<id_supplier><![CDATA[0]]></id_supplier>
+	<id_warehouse><![CDATA[0]]></id_warehouse>
+	<id_country xlink:href="http://127.0.0.1:8888/prestashop/api/countries/21"><![CDATA[21]]></id_country>
+	<id_state><![CDATA[0]]></id_state>
+	<alias><![CDATA[manufacturer]]></alias>
+	<company></company>
+	<lastname><![CDATA[JOBS]]></lastname>
+	<firstname><![CDATA[STEVE]]></firstname>
+	<vat_number></vat_number>
+	<address1><![CDATA[1 Infinite Loop]]></address1>
+	<address2></address2>
+	<postcode><![CDATA[95014]]></postcode>
+	<city><![CDATA[Cupertino]]></city>
+	<other></other>
+	<phone><![CDATA[(800) 275-2273]]></phone>
+	<phone_mobile></phone_mobile>
+	<dni></dni>
+	<deleted><![CDATA[0]]></deleted>
+	<date_add><![CDATA[2013-06-04 06:36:42]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:42]]></date_upd>
+</address>
+</prestashop>

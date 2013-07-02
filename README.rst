@@ -21,6 +21,7 @@ Example Usage:
 Connecting to your store::
 
     >>> from pystashop import PrestaShopWebservice
+    >>> from datetime import datetime, timedelta
     >>> client = PrestaShopWebservice(
     ...     'http://prestashop.openlabs.co.in', 
     ...     'X76XVCPE71843TIY5CPJVV3NX56Z4MVD')
@@ -32,7 +33,7 @@ Getting a list of customers::
     <type 'list'>
     >>> customers_count = len(customers)
 
-Creating a customer::
+Creating customers::
 
     >>> new_customer = client.customers.get_schema()
     >>> new_customer.firstname = 'Sharoon'
@@ -43,8 +44,13 @@ Creating a customer::
     'Sharoon'
     >>> customer.lastname
     'Thomas'
-    >>> customers_list = client.customers.get_list()
-    >>> len(customers_list) == customers_count + 1
+    >>> new_customer2 = client.customers.get_schema()
+    >>> new_customer2.firstname = 'Test'
+    >>> new_customer2.lastname = 'Customer'
+    >>> new_customer2.email = 'test@openlabs.co.in'
+    >>> customer2 = client.customers.create(new_customer2)
+    >>> customers_list = client.customers.get_list(as_ids=True)
+    >>> len(customers_list) == customers_count + 2
     True
     >>> customer.id in customers_list
     True
@@ -68,7 +74,9 @@ Editing the customer details::
 
 Choosing fields to display::
 
-    >>> customers = client.customers.get_list(display=['firstname', 'lastname'])
+    >>> customers = client.customers.get_list(
+    ...     display=['id', 'firstname', 'lastname']
+    ... )
     >>> isinstance(customers[0].firstname.pyval, basestring)
     True
     >>> isinstance(customers[0].lastname.pyval, basestring)
@@ -78,17 +86,79 @@ Choosing fields to display::
 
 Filtering Records to Display::
 
-    >>> customers = client.customers.get_list(filters={'firstname': 'Sharoon'})
-    >>> customers[0].firstname
-    Sharoon
+    >>> customers = client.customers.get_list(
+    ...     filters={'firstname': 'Sharoon'},
+    ...     display=['firstname']
+    ... )
+    >>> customers[0].firstname.pyval
+    'Sharoon'
+
+Filtering Records on basis of date::
+
+    >>> customers = client.customers.get_list(
+    ...     filters={
+    ...         'date_add': '{0},{1}'.format(
+    ...             '2012-01-01 00:00:00',
+    ...             datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+    ...         ),
+    ...         'firstname': 'Sharoon',
+    ...     },
+    ...     display=['firstname'], date=True,
+    ... )
+    >>> customers[0].firstname.pyval
+    'Sharoon'
+    >>> time_diff = timedelta(hours=5)
+    >>> time_now = datetime.utcnow()
+    >>> customers = client.customers.get_list(
+    ...     filters={
+    ...         'date_add': '{0},{1}'.format(
+    ...             time_now.strftime('%Y-%m-%d %H:%M:%S'),
+    ...             (time_now + time_diff).strftime(
+    ...                 '%Y-%m-%d %H:%M:%S')
+    ...         ),
+    ...         'firstname': 'Sharoon',
+    ...     },
+    ...     display=['firstname'], date=True,
+    ... )
+    >>> len(customers)
+    0
+
+Sorting Records to be displayed::
+
+    >>> customers = client.customers.get_list(
+    ...     display=['firstname'],
+    ...     sort=[('firstname', 'DESC')]
+    ... )
+    >>> customers[0].firstname.pyval
+    'Test'
+    >>> customers = client.customers.get_list(
+    ...     display=['lastname'],
+    ...     sort=[('lastname', 'DESC')]
+    ... )
+    >>> customers[0].lastname.pyval
+    'Thomas'
+
+Limiting and offsetting records to be displayed::
+
+    >>> customer_list1 = client.customers.get_list(
+    ...     as_ids=True, limit=1
+    ... )
+    >>> len(customer_list1)
+    1
+    >>> customer_list2 = client.customers.get_list(
+    ...     as_ids=True, offset=2, limit=1
+    ... )
+    >>> len(customer_list2)
+    1
+    >>> customer_list1 == customer_list2
+    False
 
 Deleting a customer::
 
     >>> client.customers.delete(customer.id)
     True
-    >>> customers_list = client.customers.get_list()
-    >>> len(customers_list) == customers_count
+    >>> customers_list = client.customers.get_list(as_ids=True)
+    >>> len(customers_list) == customers_count + 1
     True
     >>> customer.id in customers_list
     False
-

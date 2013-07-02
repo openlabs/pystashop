@@ -13,7 +13,7 @@ import doctest
 def suite():
     suite = unittest.TestSuite()
     suite.addTests(doctest.DocFileSuite(
-        '../README.rst', encoding='utf-8',
+        '../mockstashop/tests/test_mockstashop.rst', encoding='utf-8',
         optionflags=doctest.REPORT_ONLY_FIRST_FAILURE)
     )
     return suite

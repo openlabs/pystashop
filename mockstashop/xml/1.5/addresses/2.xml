@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<address>
+	<id><![CDATA[2]]></id>
+	<id_customer xlink:href="http://127.0.0.1:8888/prestashop/api/customers/1"><![CDATA[1]]></id_customer>
+	<id_manufacturer><![CDATA[0]]></id_manufacturer>
+	<id_supplier><![CDATA[0]]></id_supplier>
+	<id_warehouse><![CDATA[0]]></id_warehouse>
+	<id_country xlink:href="http://127.0.0.1:8888/prestashop/api/countries/8"><![CDATA[8]]></id_country>
+	<id_state><![CDATA[0]]></id_state>
+	<alias><![CDATA[Mon adresse]]></alias>
+	<company><![CDATA[My Company]]></company>
+	<lastname><![CDATA[DOE]]></lastname>
+	<firstname><![CDATA[John]]></firstname>
+	<vat_number></vat_number>
+	<address1><![CDATA[16, Main street]]></address1>
+	<address2><![CDATA[2nd floor]]></address2>
+	<postcode><![CDATA[75002]]></postcode>
+	<city><![CDATA[Paris ]]></city>
+	<other></other>
+	<phone><![CDATA[0102030405]]></phone>
+	<phone_mobile><![CDATA[783763832768]]></phone_mobile>
+	<dni></dni>
+	<deleted><![CDATA[0]]></deleted>
+	<date_add><![CDATA[2013-06-04 06:36:42]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:42]]></date_upd>
+</address>
+</prestashop>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<product>
+	<id><![CDATA[3]]></id>
+	<id_manufacturer xlink:href="http://127.0.0.1:8888/prestashop/api/manufacturers/1"><![CDATA[1]]></id_manufacturer>
+	<id_supplier xlink:href="http://127.0.0.1:8888/prestashop/api/suppliers/1"><![CDATA[1]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/5"><![CDATA[5]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/3/1" not_filterable="true"><![CDATA[1]]></id_default_image>
+	<id_default_combination xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/6" not_filterable="true"><![CDATA[6]]></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[0]]></position_in_category>
+	<manufacturer_name not_filterable="true"><![CDATA[Apple Computer, Inc]]></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_3]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[1.360000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[0]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[1504.18]]></price>
+	<wholesale_price><![CDATA[1000.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:43]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:43]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[macbook-air]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[MacBook Air]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p>MacBook Air is nearly as thin as your index finger. Practically every detail that could be streamlined has been. Yet it still has a 13.3-inch widescreen LED display, full-size keyboard, and large multi-touch trackpad. It’s incomparably portable without the usual ultraportable screen and keyboard compromises.</p><p>The incredible thinness of MacBook Air is the result of numerous size- and weight-shaving innovations. From a slimmer hard drive to strategically hidden I/O ports to a lower-profile battery, everything has been considered and reconsidered with thinness in mind.</p><p>MacBook Air is designed and engineered to take full advantage of the wireless world. A world in which 802.11n Wi-Fi is now so fast and so available, people are truly living untethered — buying and renting movies online, downloading software, and sharing and storing files on the web. </p>]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don’t lose inches and pounds overnight. It’s the result of rethinking conventions. Of multiple wireless innovations. And of breakthrough design. With MacBook Air, mobile computing suddenly has a new standard.]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/5">
+	<id><![CDATA[5]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/3/1">
+	<id><![CDATA[1]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/3/2">
+	<id><![CDATA[2]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/3/3">
+	<id><![CDATA[3]]></id>
+	</image>
+</images>
+<combinations node_type="combinations">
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/5">
+	<id><![CDATA[5]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/6">
+	<id><![CDATA[6]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/7">
+	<id><![CDATA[7]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/8">
+	<id><![CDATA[8]]></id>
+	</combinations>
+</combinations>
+<product_option_values node_type="product_options_values">
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/3">
+	<id><![CDATA[3]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/9">
+	<id><![CDATA[9]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/10">
+	<id><![CDATA[10]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/8">
+	<id><![CDATA[8]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/11">
+	<id><![CDATA[11]]></id>
+	</product_options_values>
+</product_option_values>
+<product_features node_type="product_feature"/>
+<tags node_type="tag"/>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/3">
+	<id><![CDATA[3]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/12">
+	<id><![CDATA[12]]></id>
+	<id_product_attribute><![CDATA[5]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/13">
+	<id><![CDATA[13]]></id>
+	<id_product_attribute><![CDATA[6]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/14">
+	<id><![CDATA[14]]></id>
+	<id_product_attribute><![CDATA[7]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/15">
+	<id><![CDATA[15]]></id>
+	<id_product_attribute><![CDATA[8]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+</prestashop>

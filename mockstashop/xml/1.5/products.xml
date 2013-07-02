@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<products>
+<product>
+	<id><![CDATA[1]]></id>
+	<id_manufacturer xlink:href="http://127.0.0.1:8888/prestashop/api/manufacturers/1"><![CDATA[1]]></id_manufacturer>
+	<id_supplier xlink:href="http://127.0.0.1:8888/prestashop/api/suppliers/1"><![CDATA[1]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/3"><![CDATA[3]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/15" not_filterable="true"><![CDATA[15]]></id_default_image>
+	<id_default_combination xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/18" not_filterable="true"><![CDATA[18]]></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[0]]></position_in_category>
+	<manufacturer_name not_filterable="true"><![CDATA[Apple Computer, Inc]]></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_1]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[0.500000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[0]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[166.39]]></price>
+	<wholesale_price><![CDATA[70.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:43]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:43]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[ipod-nano]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[iPod Nano]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p><strong><span style="font-size: small;">Curved ahead of the curve.</span></strong></p>
+<p>For those about to rock, we give you nine amazing colors. But that's only part of the story. Feel the curved, all-aluminum and glass design and you won't want to put iPod nano down.</p>
+<p><strong><span style="font-size: small;">Great looks. And brains, too.</span></strong></p>
+<p>The new Genius feature turns iPod nano into your own highly intelligent, personal DJ. It creates playlists by finding songs in your library that go great together.</p>
+<p><strong><span style="font-size: small;">Made to move with your moves.</span></strong></p>
+<p>The accelerometer comes to iPod nano. Give it a shake to shuffle your music. Turn it sideways to view Cover Flow. And play games designed with your moves in mind.</p>]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p>New design. New features. Now in 8GB and 16GB. iPod nano rocks like never before.</p>]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[In stock]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/2">
+	<id><![CDATA[2]]></id>
+	</category>
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/3">
+	<id><![CDATA[3]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/15">
+	<id><![CDATA[15]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/16">
+	<id><![CDATA[16]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/17">
+	<id><![CDATA[17]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/18">
+	<id><![CDATA[18]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/19">
+	<id><![CDATA[19]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/20">
+	<id><![CDATA[20]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/21">
+	<id><![CDATA[21]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/1/22">
+	<id><![CDATA[22]]></id>
+	</image>
+</images>
+<combinations node_type="combinations">
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/12">
+	<id><![CDATA[12]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/13">
+	<id><![CDATA[13]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/14">
+	<id><![CDATA[14]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/15">
+	<id><![CDATA[15]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/16">
+	<id><![CDATA[16]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/17">
+	<id><![CDATA[17]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/18">
+	<id><![CDATA[18]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/19">
+	<id><![CDATA[19]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/20">
+	<id><![CDATA[20]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/21">
+	<id><![CDATA[21]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/22">
+	<id><![CDATA[22]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/23">
+	<id><![CDATA[23]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/24">
+	<id><![CDATA[24]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/25">
+	<id><![CDATA[25]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/26">
+	<id><![CDATA[26]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/27">
+	<id><![CDATA[27]]></id>
+	</combinations>
+</combinations>
+<product_option_values node_type="product_options_values">
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/4">
+	<id><![CDATA[4]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/16">
+	<id><![CDATA[16]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/15">
+	<id><![CDATA[15]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/19">
+	<id><![CDATA[19]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/3">
+	<id><![CDATA[3]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/14">
+	<id><![CDATA[14]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/7">
+	<id><![CDATA[7]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/5">
+	<id><![CDATA[5]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/6">
+	<id><![CDATA[6]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/18">
+	<id><![CDATA[18]]></id>
+	</product_options_values>
+</product_option_values>
+<product_features node_type="product_feature"/>
+<tags node_type="tag">
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/1">
+	<id><![CDATA[1]]></id>
+	</tag>
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/2">
+	<id><![CDATA[2]]></id>
+	</tag>
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/3">
+	<id><![CDATA[3]]></id>
+	</tag>
+</tags>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/1">
+	<id><![CDATA[1]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/19">
+	<id><![CDATA[19]]></id>
+	<id_product_attribute><![CDATA[12]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/20">
+	<id><![CDATA[20]]></id>
+	<id_product_attribute><![CDATA[13]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/21">
+	<id><![CDATA[21]]></id>
+	<id_product_attribute><![CDATA[14]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/22">
+	<id><![CDATA[22]]></id>
+	<id_product_attribute><![CDATA[15]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/23">
+	<id><![CDATA[23]]></id>
+	<id_product_attribute><![CDATA[16]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/24">
+	<id><![CDATA[24]]></id>
+	<id_product_attribute><![CDATA[17]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/25">
+	<id><![CDATA[25]]></id>
+	<id_product_attribute><![CDATA[18]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/26">
+	<id><![CDATA[26]]></id>
+	<id_product_attribute><![CDATA[19]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/27">
+	<id><![CDATA[27]]></id>
+	<id_product_attribute><![CDATA[20]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/28">
+	<id><![CDATA[28]]></id>
+	<id_product_attribute><![CDATA[21]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/29">
+	<id><![CDATA[29]]></id>
+	<id_product_attribute><![CDATA[22]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/30">
+	<id><![CDATA[30]]></id>
+	<id_product_attribute><![CDATA[23]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/31">
+	<id><![CDATA[31]]></id>
+	<id_product_attribute><![CDATA[24]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/32">
+	<id><![CDATA[32]]></id>
+	<id_product_attribute><![CDATA[25]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/33">
+	<id><![CDATA[33]]></id>
+	<id_product_attribute><![CDATA[26]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/34">
+	<id><![CDATA[34]]></id>
+	<id_product_attribute><![CDATA[27]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+<product>
+	<id><![CDATA[2]]></id>
+	<id_manufacturer xlink:href="http://127.0.0.1:8888/prestashop/api/manufacturers/1"><![CDATA[1]]></id_manufacturer>
+	<id_supplier xlink:href="http://127.0.0.1:8888/prestashop/api/suppliers/1"><![CDATA[1]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/3"><![CDATA[3]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/23" not_filterable="true"><![CDATA[23]]></id_default_image>
+	<id_default_combination xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/2" not_filterable="true"><![CDATA[2]]></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[1]]></position_in_category>
+	<manufacturer_name not_filterable="true"><![CDATA[Apple Computer, Inc]]></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_2]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[0.000000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[0]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[66.05]]></price>
+	<wholesale_price><![CDATA[33.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:43]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:43]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[ipod-shuffle]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[iPod shuffle]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p><span style="font-size: small;"><strong>Instant attachment.</strong></span></p>
+<p>Wear up to 500 songs on your sleeve. Or your belt. Or your gym shorts. iPod shuffle is a badge of musical devotion. Now in new, more brilliant colors.</p>
+<p><span style="font-size: small;"><strong>Feed your iPod shuffle.</strong></span></p>
+<p>iTunes is your entertainment superstore. It’s your ultra-organized music collection and jukebox. And it’s how you load up your iPod shuffle in one click.</p>
+<p><span style="font-size: small;"><strong>Beauty and the beat.</strong></span></p>
+<p>Intensely colorful anodized aluminum complements the simple design of iPod shuffle. Now in blue, green, pink, red, and original silver.</p>]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p>iPod shuffle, the world’s most wearable music player, now clips on in more vibrant blue, green, pink, and red.</p>]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[In stock]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/2">
+	<id><![CDATA[2]]></id>
+	</category>
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/3">
+	<id><![CDATA[3]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/23">
+	<id><![CDATA[23]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/24">
+	<id><![CDATA[24]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/25">
+	<id><![CDATA[25]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/2/26">
+	<id><![CDATA[26]]></id>
+	</image>
+</images>
+<combinations node_type="combinations">
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/1">
+	<id><![CDATA[1]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/2">
+	<id><![CDATA[2]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/3">
+	<id><![CDATA[3]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/4">
+	<id><![CDATA[4]]></id>
+	</combinations>
+</combinations>
+<product_option_values node_type="product_options_values">
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/4">
+	<id><![CDATA[4]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/6">
+	<id><![CDATA[6]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/3">
+	<id><![CDATA[3]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/5">
+	<id><![CDATA[5]]></id>
+	</product_options_values>
+</product_option_values>
+<product_features node_type="product_feature"/>
+<tags node_type="tag">
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/2">
+	<id><![CDATA[2]]></id>
+	</tag>
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/6">
+	<id><![CDATA[6]]></id>
+	</tag>
+</tags>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/2">
+	<id><![CDATA[2]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/8">
+	<id><![CDATA[8]]></id>
+	<id_product_attribute><![CDATA[1]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/9">
+	<id><![CDATA[9]]></id>
+	<id_product_attribute><![CDATA[2]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/10">
+	<id><![CDATA[10]]></id>
+	<id_product_attribute><![CDATA[3]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/11">
+	<id><![CDATA[11]]></id>
+	<id_product_attribute><![CDATA[4]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+<product>
+	<id><![CDATA[5]]></id>
+	<id_manufacturer><![CDATA[0]]></id_manufacturer>
+	<id_supplier><![CDATA[0]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/3"><![CDATA[3]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/5/7" not_filterable="true"><![CDATA[7]]></id_default_image>
+	<id_default_combination xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/9" not_filterable="true"><![CDATA[9]]></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[2]]></position_in_category>
+	<manufacturer_name not_filterable="true"></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_5]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[0.000000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[0]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[241.64]]></price>
+	<wholesale_price><![CDATA[200.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:44]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:44]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[ipod-touch]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[iPod touch]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<h3>Five new hands-on applications</h3>
+<p>View rich HTML email with photos as well as PDF, Word, and Excel attachments. Get maps, directions, and real-time traffic information. Take notes and read stock and weather reports.</p>
+<h3>Touch your music, movies, and more</h3>
+<p>The revolutionary Multi-Touch technology built into the gorgeous 3.5-inch display lets you pinch, zoom, scroll, and flick with your fingers.</p>
+<h3>Internet in your pocket</h3>
+<p>With the Safari web browser, see websites the way they were designed to be seen and zoom in and out with a tap.<sup>2</sup> And add Web Clips to your Home screen for quick access to favorite sites.</p>
+<h3>What's in the box</h3>
+<ul>
+<li><span></span>iPod touch</li>
+<li><span></span>Earphones</li>
+<li><span></span>USB 2.0 cable</li>
+<li><span></span>Dock adapter</li>
+<li><span></span>Polishing cloth</li>
+<li><span></span>Stand</li>
+<li><span></span>Quick Start guide</li>
+</ul>]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<ul>
+<li>Revolutionary Multi-Touch interface</li>
+<li>3.5-inch widescreen color display</li>
+<li>Wi-Fi (802.11b/g)</li>
+<li>8 mm thin</li>
+<li>Safari, YouTube, Mail, Stocks, Weather, Notes, iTunes Wi-Fi Music Store, Maps</li>
+</ul>]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/2">
+	<id><![CDATA[2]]></id>
+	</category>
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/3">
+	<id><![CDATA[3]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/5/7">
+	<id><![CDATA[7]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/5/8">
+	<id><![CDATA[8]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/5/9">
+	<id><![CDATA[9]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/5/10">
+	<id><![CDATA[10]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/5/11">
+	<id><![CDATA[11]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/5/12">
+	<id><![CDATA[12]]></id>
+	</image>
+</images>
+<combinations node_type="combinations">
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/9">
+	<id><![CDATA[9]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/10">
+	<id><![CDATA[10]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/11">
+	<id><![CDATA[11]]></id>
+	</combinations>
+</combinations>
+<product_option_values node_type="product_options_values">
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/15">
+	<id><![CDATA[15]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/16">
+	<id><![CDATA[16]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/17">
+	<id><![CDATA[17]]></id>
+	</product_options_values>
+</product_option_values>
+<product_features node_type="product_feature"/>
+<tags node_type="tag">
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/5">
+	<id><![CDATA[5]]></id>
+	</tag>
+</tags>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/5">
+	<id><![CDATA[5]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/16">
+	<id><![CDATA[16]]></id>
+	<id_product_attribute><![CDATA[9]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/17">
+	<id><![CDATA[17]]></id>
+	<id_product_attribute><![CDATA[10]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/18">
+	<id><![CDATA[18]]></id>
+	<id_product_attribute><![CDATA[11]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+<product>
+	<id><![CDATA[6]]></id>
+	<id_manufacturer><![CDATA[0]]></id_manufacturer>
+	<id_supplier><![CDATA[0]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/4"><![CDATA[4]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/6/13" not_filterable="true"><![CDATA[13]]></id_default_image>
+	<id_default_combination not_filterable="true"></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[0]]></position_in_category>
+	<manufacturer_name not_filterable="true"></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_6]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[0.000000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[1]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[25.04]]></price>
+	<wholesale_price><![CDATA[0.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:44]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:44]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[belkin-leather-folio-for-ipod-nano-black-chocolate]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[Belkin Leather Folio for iPod nano - Black / Chocolate]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p>Lorem ipsum</p>]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p>Lorem ipsum</p>]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/4">
+	<id><![CDATA[4]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/6/13">
+	<id><![CDATA[13]]></id>
+	</image>
+</images>
+<combinations node_type="combinations"/>
+<product_option_values node_type="product_options_values"/>
+<product_features node_type="product_feature"/>
+<tags node_type="tag"/>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/6">
+	<id><![CDATA[6]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+<product>
+	<id><![CDATA[7]]></id>
+	<id_manufacturer xlink:href="http://127.0.0.1:8888/prestashop/api/manufacturers/2"><![CDATA[2]]></id_manufacturer>
+	<id_supplier xlink:href="http://127.0.0.1:8888/prestashop/api/suppliers/2"><![CDATA[2]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/4"><![CDATA[4]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/7/14" not_filterable="true"><![CDATA[14]]></id_default_image>
+	<id_default_combination not_filterable="true"></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[1]]></position_in_category>
+	<manufacturer_name not_filterable="true"><![CDATA[Shure Incorporated]]></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_7]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[0.000000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[1]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[124.58]]></price>
+	<wholesale_price><![CDATA[0.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:44]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:44]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[ecouteurs-a-isolation-sonore-shure-se210-blanc]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[Shure SE210 Sound-Isolating Earphones for iPod and iPhone]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<div class="product-overview-full">Using Hi-Definition MicroSpeakers to deliver full-range audio, the ergonomic and lightweight design of the SE210 earphones is ideal for premium on-the-go listening on your iPod or iPhone. They offer the most accurate audio reproduction from both portable and home stereo audio sources--for the ultimate in precision highs and rich low end. In addition, the flexible design allows you to choose the most comfortable fit from a variety of wearing positions. <br /> <br /> <strong>Features </strong> <br /> 
+<ul>
+<li>Sound-isolating design </li>
+<li> Hi-Definition MicroSpeaker with a single balanced armature driver </li>
+<li> Detachable, modular cable so you can make the cable longer or shorter depending on your activity </li>
+<li> Connector compatible with earphone ports on both iPod and iPhone </li>
+</ul>
+<strong>Specifications </strong><br /> 
+<ul>
+<li>Speaker type: Hi-Definition MicroSpeaker </li>
+<li> Frequency range: 25Hz-18.5kHz </li>
+<li> Impedance (1kHz): 26 Ohms </li>
+<li> Sensitivity (1mW): 114 dB SPL/mW </li>
+<li> Cable length (with extension): 18.0 in./45.0 cm (54.0 in./137.1 cm) </li>
+</ul>
+<strong>In the box</strong><br /> 
+<ul>
+<li>Shure SE210 earphones </li>
+<li> Extension cable (36.0 in./91.4 cm) </li>
+<li> Three pairs foam earpiece sleeves (small, medium, large) </li>
+<li> Three pairs soft flex earpiece sleeves (small, medium, large) </li>
+<li> One pair triple-flange earpiece sleeves </li>
+<li> Carrying case </li>
+</ul>
+Warranty<br /> Two-year limited <br />(For details, please visit <br />www.shure.com/PersonalAudio/CustomerSupport/ProductReturnsAndWarranty/index.htm.) <br /><br /> Mfr. Part No.: SE210-A-EFS <br /><br />Note: Products sold through this website that do not bear the Apple Brand name are serviced and supported exclusively by their manufacturers in accordance with terms and conditions packaged with the products. Apple's Limited Warranty does not apply to products that are not Apple-branded, even if packaged or sold with Apple products. Please contact the manufacturer directly for technical support and customer service.</div>]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p>Evolved from personal monitor technology road-tested by pro musicians and perfected by Shure engineers, the lightweight and stylish SE210 delivers full-range audio that's free from outside noise.</p>]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/4">
+	<id><![CDATA[4]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/7/14">
+	<id><![CDATA[14]]></id>
+	</image>
+</images>
+<combinations node_type="combinations"/>
+<product_option_values node_type="product_options_values"/>
+<product_features node_type="product_feature"/>
+<tags node_type="tag"/>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/7">
+	<id><![CDATA[7]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+<product>
+	<id><![CDATA[3]]></id>
+	<id_manufacturer xlink:href="http://127.0.0.1:8888/prestashop/api/manufacturers/1"><![CDATA[1]]></id_manufacturer>
+	<id_supplier xlink:href="http://127.0.0.1:8888/prestashop/api/suppliers/1"><![CDATA[1]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/5"><![CDATA[5]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/3/1" not_filterable="true"><![CDATA[1]]></id_default_image>
+	<id_default_combination xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/6" not_filterable="true"><![CDATA[6]]></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[0]]></position_in_category>
+	<manufacturer_name not_filterable="true"><![CDATA[Apple Computer, Inc]]></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_3]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[1.360000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[0]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[1504.18]]></price>
+	<wholesale_price><![CDATA[1000.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:43]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:43]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[macbook-air]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[MacBook Air]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[<p>MacBook Air is nearly as thin as your index finger. Practically every detail that could be streamlined has been. Yet it still has a 13.3-inch widescreen LED display, full-size keyboard, and large multi-touch trackpad. It’s incomparably portable without the usual ultraportable screen and keyboard compromises.</p><p>The incredible thinness of MacBook Air is the result of numerous size- and weight-shaving innovations. From a slimmer hard drive to strategically hidden I/O ports to a lower-profile battery, everything has been considered and reconsidered with thinness in mind.</p><p>MacBook Air is designed and engineered to take full advantage of the wireless world. A world in which 802.11n Wi-Fi is now so fast and so available, people are truly living untethered — buying and renting movies online, downloading software, and sharing and storing files on the web. </p>]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don’t lose inches and pounds overnight. It’s the result of rethinking conventions. Of multiple wireless innovations. And of breakthrough design. With MacBook Air, mobile computing suddenly has a new standard.]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/5">
+	<id><![CDATA[5]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/3/1">
+	<id><![CDATA[1]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/3/2">
+	<id><![CDATA[2]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/3/3">
+	<id><![CDATA[3]]></id>
+	</image>
+</images>
+<combinations node_type="combinations">
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/5">
+	<id><![CDATA[5]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/6">
+	<id><![CDATA[6]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/7">
+	<id><![CDATA[7]]></id>
+	</combinations>
+	<combinations xlink:href="http://127.0.0.1:8888/prestashop/api/combinations/8">
+	<id><![CDATA[8]]></id>
+	</combinations>
+</combinations>
+<product_option_values node_type="product_options_values">
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/3">
+	<id><![CDATA[3]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/9">
+	<id><![CDATA[9]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/10">
+	<id><![CDATA[10]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/8">
+	<id><![CDATA[8]]></id>
+	</product_options_values>
+	<product_options_values xlink:href="http://127.0.0.1:8888/prestashop/api/product_option_values/11">
+	<id><![CDATA[11]]></id>
+	</product_options_values>
+</product_option_values>
+<product_features node_type="product_feature"/>
+<tags node_type="tag"/>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/3">
+	<id><![CDATA[3]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/12">
+	<id><![CDATA[12]]></id>
+	<id_product_attribute><![CDATA[5]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/13">
+	<id><![CDATA[13]]></id>
+	<id_product_attribute><![CDATA[6]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/14">
+	<id><![CDATA[14]]></id>
+	<id_product_attribute><![CDATA[7]]></id_product_attribute>
+	</stock_available>
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/15">
+	<id><![CDATA[15]]></id>
+	<id_product_attribute><![CDATA[8]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+<product>
+	<id><![CDATA[4]]></id>
+	<id_manufacturer xlink:href="http://127.0.0.1:8888/prestashop/api/manufacturers/1"><![CDATA[1]]></id_manufacturer>
+	<id_supplier xlink:href="http://127.0.0.1:8888/prestashop/api/suppliers/1"><![CDATA[1]]></id_supplier>
+	<id_category_default xlink:href="http://127.0.0.1:8888/prestashop/api/categories/5"><![CDATA[5]]></id_category_default>
+	<new></new>
+	<cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+	<id_default_image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/4/6" not_filterable="true"><![CDATA[6]]></id_default_image>
+	<id_default_combination not_filterable="true"></id_default_combination>
+	<id_tax_rules_group xlink:href="http://127.0.0.1:8888/prestashop/api/tax_rules_group/1"><![CDATA[1]]></id_tax_rules_group>
+	<position_in_category not_filterable="true"><![CDATA[1]]></position_in_category>
+	<manufacturer_name not_filterable="true"><![CDATA[Apple Computer, Inc]]></manufacturer_name>
+	<quantity not_filterable="true"><![CDATA[0]]></quantity>
+	<type not_filterable="true"><![CDATA[simple]]></type>
+	<id_shop_default><![CDATA[1]]></id_shop_default>
+	<reference><![CDATA[demo_4]]></reference>
+	<supplier_reference></supplier_reference>
+	<location></location>
+	<width><![CDATA[0.000000]]></width>
+	<height><![CDATA[0.000000]]></height>
+	<depth><![CDATA[0.000000]]></depth>
+	<weight><![CDATA[0.750000]]></weight>
+	<quantity_discount><![CDATA[0]]></quantity_discount>
+	<ean13><![CDATA[0]]></ean13>
+	<upc></upc>
+	<cache_is_pack><![CDATA[0]]></cache_is_pack>
+	<cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+	<is_virtual><![CDATA[0]]></is_virtual>
+	<on_sale><![CDATA[0]]></on_sale>
+	<online_only><![CDATA[0]]></online_only>
+	<ecotax><![CDATA[0.000000]]></ecotax>
+	<minimal_quantity><![CDATA[1]]></minimal_quantity>
+	<price><![CDATA[1170.57]]></price>
+	<wholesale_price><![CDATA[0.000000]]></wholesale_price>
+	<unity></unity>
+	<unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+	<additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+	<customizable><![CDATA[0]]></customizable>
+	<text_fields><![CDATA[0]]></text_fields>
+	<uploadable_files><![CDATA[0]]></uploadable_files>
+	<active><![CDATA[1]]></active>
+	<redirect_type></redirect_type>
+	<id_product_redirected><![CDATA[0]]></id_product_redirected>
+	<available_for_order><![CDATA[1]]></available_for_order>
+	<available_date><![CDATA[0000-00-00]]></available_date>
+	<condition><![CDATA[new]]></condition>
+	<show_price><![CDATA[1]]></show_price>
+	<indexed><![CDATA[1]]></indexed>
+	<visibility><![CDATA[both]]></visibility>
+	<advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+	<date_add><![CDATA[2013-06-04 06:36:44]]></date_add>
+	<date_upd><![CDATA[2013-06-04 06:36:44]]></date_upd>
+	<meta_description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_description>
+	<meta_keywords><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_keywords>
+	<meta_title><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></meta_title>
+	<link_rewrite><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[macbook]]></language></link_rewrite>
+	<name><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[MacBook]]></language></name>
+	<description><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[Every MacBook has a larger hard drive, up to 250GB, to store growing media collections and valuable data.<br /><br />The 2.4GHz MacBook models now include 2GB of memory standard — perfect for running more of your favorite applications smoothly.]]></language></description>
+	<description_short><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[MacBook makes it easy to hit the road thanks to its tough polycarbonate case, built-in wireless technologies, and innovative MagSafe Power Adapter that releases automatically if someone accidentally trips on the cord.]]></language></description_short>
+	<available_now><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_now>
+	<available_later><language id="1" xlink:href="http://127.0.0.1:8888/prestashop/api/languages/1"><![CDATA[]]></language></available_later>
+<associations>
+<categories node_type="category">
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/2">
+	<id><![CDATA[2]]></id>
+	</category>
+	<category xlink:href="http://127.0.0.1:8888/prestashop/api/categories/5">
+	<id><![CDATA[5]]></id>
+	</category>
+</categories>
+<images node_type="image">
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/4/4">
+	<id><![CDATA[4]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/4/5">
+	<id><![CDATA[5]]></id>
+	</image>
+	<image xlink:href="http://127.0.0.1:8888/prestashop/api/images/products/4/6">
+	<id><![CDATA[6]]></id>
+	</image>
+</images>
+<combinations node_type="combinations"/>
+<product_option_values node_type="product_options_values"/>
+<product_features node_type="product_feature"/>
+<tags node_type="tag">
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/1">
+	<id><![CDATA[1]]></id>
+	</tag>
+	<tag xlink:href="http://127.0.0.1:8888/prestashop/api/tags/4">
+	<id><![CDATA[4]]></id>
+	</tag>
+</tags>
+<stock_availables node_type="stock_available">
+	<stock_available xlink:href="http://127.0.0.1:8888/prestashop/api/stock_availables/4">
+	<id><![CDATA[4]]></id>
+	<id_product_attribute><![CDATA[0]]></id_product_attribute>
+	</stock_available>
+</stock_availables>
+<accessories node_type="product"/>
+<product_bundle node_type="products"/>
+</associations>
+</product>
+</products>
+</prestashop>

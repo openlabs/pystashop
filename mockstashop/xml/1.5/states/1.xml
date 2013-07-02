@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<state>
+	<id><![CDATA[1]]></id>
+	<id_zone xlink:href="http://127.0.0.1:8888/prestashop/api/zones/2"><![CDATA[2]]></id_zone>
+	<id_country xlink:href="http://127.0.0.1:8888/prestashop/api/countries/21"><![CDATA[21]]></id_country>
+	<iso_code><![CDATA[AL]]></iso_code>
+	<name><![CDATA[Alabama]]></name>
+	<active><![CDATA[1]]></active>
+</state>
+</prestashop>

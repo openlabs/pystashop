@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<language>
+	<id><![CDATA[1]]></id>
+	<name><![CDATA[English (United States)]]></name>
+	<iso_code><![CDATA[en]]></iso_code>
+	<language_code><![CDATA[en]]></language_code>
+	<active><![CDATA[1]]></active>
+	<is_rtl><![CDATA[0]]></is_rtl>
+	<date_format_lite><![CDATA[Y-m-d]]></date_format_lite>
+	<date_format_full><![CDATA[Y-m-d H:i:s]]></date_format_full>
+</language>
+</prestashop>
