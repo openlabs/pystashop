@@ -1,6 +1,18 @@
 Python API for Prestashop
 =========================
 
+.. image:: https://travis-ci.org/openlabs/pystashop.svg?branch=develop
+    :target: https://travis-ci.org/openlabs/pystashop
+
+.. image:: https://pypip.in/download/pystashop/badge.svg
+        :target: https://pypi.python.org/pypi/pystashop/
+
+.. image:: https://pypip.in/version/pystashop/badge.svg
+        :target: https://pypi.python.org/pypi/pystashop/
+
+.. image:: https://pypip.in/status/pystashop/badge.svg
+        :target: https://pypi.python.org/pypi/pystashop
+
 The Python API for prestashop
 
 Running the test against an existing server:
